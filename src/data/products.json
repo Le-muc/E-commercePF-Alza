@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "name": "Camiseta Básica",
+      "category": "Ropa",
+      "price": 1200,
+      "image": "https://via.placeholder.com/150",
+      "description": "Camiseta de algodón 100% en varios colores."
+    },
+    {
+      "id": 2,
+      "name": "Pantalones Jeans",
+      "category": "Ropa",
+      "price": 2500,
+      "image": "https://via.placeholder.com/150",
+      "description": "Jeans de corte ajustado y cómodo."
+    },
+    {
+      "id": 3,
+      "name": "Zapatillas Deportivas",
+      "category": "Calzado",
+      "price": 5000,
+      "image": "https://via.placeholder.com/150",
+      "description": "Zapatillas de running con soporte adicional."
+    },
+    {
+      "id": 4,
+      "name": "Chaqueta de Invierno",
+      "category": "Ropa",
+      "price": 4500,
+      "image": "https://via.placeholder.com/150",
+      "description": "Chaqueta con forro térmico para bajas temperaturas."
+    },
+    {
+      "id": 5,
+      "name": "Bolso de Viaje",
+      "category": "Accesorios",
+      "price": 3000,
+      "image": "https://via.placeholder.com/150",
+      "description": "Bolso espacioso para viajar cómodamente."
+    },
+    {
+      "id": 6,
+      "name": "Reloj Deportivo",
+      "category": "Accesorios",
+      "price": 1500,
+      "image": "https://via.placeholder.com/150",
+      "description": "Reloj resistente al agua, ideal para deportes."
+    },
+    {
+      "id": 7,
+      "name": "Gorra Casual",
+      "category": "Accesorios",
+      "price": 800,
+      "image": "https://via.placeholder.com/150",
+      "description": "Gorra ajustable disponible en varios colores."
+    },
+    {
+      "id": 8,
+      "name": "Sudadera con Capucha",
+      "category": "Ropa",
+      "price": 2200,
+      "image": "https://via.placeholder.com/150",
+      "description": "Sudadera cómoda y cálida para uso diario."
+    }
+  ]
+  

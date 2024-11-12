@@ -1,12 +1,13 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Asegúrate de importar Bootstrap
-import CartWidget from './CartWidget'; // Importar el nuevo componente
+import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CartWidget from './CartWidget';
 
 const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">LeMuc</a>
+                <Link className="navbar-brand" to="/">LeMuc</Link>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -21,16 +22,16 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Categoría 1</a>
+                            <Link className="nav-link" to="/category/categoria1">Categoría 1</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Categoría 2</a>
+                            <Link className="nav-link" to="/category/categoria2">Categoría 2</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Categoría 3</a>
+                            <Link className="nav-link" to="/category/categoria3">Categoría 3</Link>
                         </li>
                     </ul>
-                    <CartWidget className="ms-auto" /> {/* Colocar el CartWidget a la derecha */}
+                    <CartWidget className="ms-auto" />
                 </div>
             </div>
         </nav>
@@ -38,6 +39,7 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
 
 
 
