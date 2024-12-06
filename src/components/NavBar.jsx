@@ -1,3 +1,4 @@
+// src/components/NavBar.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -31,7 +32,10 @@ const NavBar = () => {
                             <Link className="nav-link" to="/category/categoria3">Categoría 3</Link>
                         </li>
                     </ul>
-                    <CartWidget className="ms-auto" />
+                    {/* Envolvemos el CartWidget con un Link hacia /cart */}
+                    <Link to="/cart" className="ms-auto">
+                        <CartWidget />
+                    </Link>
                 </div>
             </div>
         </nav>
@@ -39,6 +43,7 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
 
 
 
