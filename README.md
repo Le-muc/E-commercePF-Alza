@@ -11,7 +11,7 @@ Una aplicación de comercio electrónico desarrollada con React. Los usuarios pu
 
 1. Clonar el repositorio:
 
-git clone 
+git clone https://github.com/Le-muc/E-commercePF-Alza
 
 La aplicación estará disponible en [http://localhost:3000](http://localhost:3000).
 
